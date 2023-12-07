@@ -1,5 +1,5 @@
-#!/usr/bin/python3
 def pascal_triangle(n):
+    """ Pascal tiangle. """
     if n <= 0:
         return []
 
