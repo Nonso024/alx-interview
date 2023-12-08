@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Lockboxes"""
+"""The game of lockboxes"""
 
 
 def canUnlockAll(boxes):
-    """This method determines if allboxes can be opened"""
+    """ This method determines if allboxes can be opened """
 
     bunch_of_keys = list(range(1, len(boxes)))
 
