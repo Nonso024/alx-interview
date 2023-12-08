@@ -9,7 +9,6 @@ def canUnlockAll(boxes):
 
     for key in bunch_of_keys:
         found = False
-
         for idx, box in enumerate(boxes):
             if idx == key:
                 continue
